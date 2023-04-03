@@ -92,7 +92,6 @@ body {
   color: #fff;
 }
 
-
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -110,7 +109,6 @@ body {
   color: #fff;
   animation: color-change 0.5s infinite alternate;
 }
-
 
 @keyframes color-change {
   0% {
@@ -301,14 +299,6 @@ body {
   font-weight: 400;
 }
 
-.grid h2:hover,
-.flex h1:hover {
-  cursor: pointer;
-  color: #ff6b00;
-  transform: scale(1.05);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
 .recent-works p {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -341,6 +331,22 @@ body {
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-size: 32px;
   color: #fff;
+}
+
+.About h1 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.grid h2:hover,
+.flex h1:hover {
+  cursor: pointer;
+  color: #ff6b00;
+  transform: scale(1.05);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .gymnast:hover {
@@ -380,21 +386,12 @@ li {
   padding: 50px 24px 50px 24px;
 }
 
-.About h1 {
-  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
-  font-size: 72px;
-  color: #ff6b00;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
 .About h1:hover {
   cursor: pointer;
   color: white;
   transform: scale(1.1);
   text-shadow: 0 0 10px rgba(251, 198, 40, 0.5);
 }
-
 
 .About p {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
