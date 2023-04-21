@@ -107,7 +107,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   color: #fff;
-  animation: color-change 0.5s infinite alternate;
+  animation: color-change 5s infinite alternate;
 }
 
 @keyframes color-change {
@@ -124,7 +124,7 @@ body {
   }
 
   100% {
-    color: #f3f4f7;
+    color: #8594c1;
   }
 }
 
